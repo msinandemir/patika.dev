@@ -1,0 +1,53 @@
+/* INDEX.HTML */
+.index-section .container{
+    align-items: center;
+
+}
+
+.index-section .container .lef{
+    padding: 1rem;
+
+}
+
+.index-section .container .right > img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 3px solid #F3EFE0;
+}
+
+
+/* ABOUT-US.HTML */
+
+.section-about .container{
+    align-items: center;
+}
+
+/* CONTACT.HTML  */
+
+.section-contact .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    
+}
+.section-contact .form input , .section-contact .form textarea ,  .section-contact .form button{
+    margin-top: 1rem;
+    width: 80%;
+    padding: .5rem;
+    border-radius: .5rem;
+    
+}
+
+.section-contact .form input , .section-contact .form textarea{
+    color: black;
+
+}
+
+.section-contact .form textarea{
+    resize: none;
+}
