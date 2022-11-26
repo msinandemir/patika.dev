@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 351px;
+    height: 113px;
+}
+
+.search{
+    width: 805px;
+    height: 60px;
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.search #search{
+    width: 317px;
+    height: 21px;
+    padding: 1px 2px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    padding: 1px 6px;
+    gap: .2rem;
+}
+
+.buttons #btn-search{
+    width: 105px;
+    height: 21px;
+}
+
+.buttons #btn-feeling{
+    width: 110px;
+    height: 21px;
+}
+
+.footer{
+    width: 805px;
+    height: 76px;
+    display: flex;
+    gap: .15rem;
+    margin-top: .2rem;
+    margin-bottom: 16px;
+}
+.footer ul > li{
+    list-style-type: none;
+}
+
+.box-1{
+    width: 37%;
+    background: #7EE5DA;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.box-2{
+    width: 20%;
+    padding: 1px;
+    background: #70CCC2;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.box-3{
+    width: 43%;
+    background: #62B3AA;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    text-align: center;
+    align-items: center;
+}
+
+.box-3 #text{
+    width: 177px;
+    height: 21px;
+}
+
+.box-3-under{
+    display: flex;
+    gap: .5rem;
+}
+.box-3-under button{
+padding: 1px 6px;
+}
+.box-3-under a{
+    align-self: center;
+}
+
+.copy-text{
+    font-size: 13px;
+}
